@@ -14,13 +14,24 @@ nav {
 }
 ul {
     display: flex;
+    list-style: none;
 }
 .navigasi {
     margin-left: auto;
 }
+a, a:active, a:visited {
+    color: #FE4B74;
+    text-decoration: none;
+}
+.container {
+    width: 100%;    
+    padding-top: 6em;
+    text-align: center;
+}
 header, section {
+    height: 100%;    
     background-color: #373B44;
-    height: 100%;
+    color: white;    
 }
 section:nth-of-type(odd) {
     background-color: #FE4B74;

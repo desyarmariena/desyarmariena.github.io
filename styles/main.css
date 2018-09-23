@@ -77,6 +77,7 @@ header a:hover{
     width: 100%;    
     padding-top: 6em;
     text-align: center;
+    margin: 0 auto;
 }
 header, section {
     height: 100%;    
@@ -95,6 +96,25 @@ h2 {
     width: 80%;
     font-size: 1.5em;
     line-height: 2em;
+}
+#skills ul{
+    display: grid;
+    width: 80%;
+    margin: 4em auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.fab {
+    font-size: 10vw;
+}
+#skills ul li {
+    padding: 2vw;
+}
+#skills ul li:hover {
+    color: #FE4B74;
+}
+span {
+    display: block;
+    font-size: 2vw;
 }
 footer {
 

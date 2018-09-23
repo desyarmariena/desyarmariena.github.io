@@ -23,10 +23,29 @@ a, a:active, a:visited {
     color: #FE4B74;
     text-decoration: none;
 }
+hr{
+    width: 30%;
+    margin: 2em auto 3em auto;
+}
 .container {
     width: 100%;    
     padding-top: 6em;
     text-align: center;
+}
+header h1 {
+    padding-top: 5em;
+}
+header h3 {
+    padding-top: 1em;
+}
+header a {
+    border: 1px solid #FE4B74;
+    padding: 1em;
+    border-radius: 20px;
+}
+header a:hover{
+    background-color: #FE4B74;
+    color: white;
 }
 header, section {
     height: 100%;    

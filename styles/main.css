@@ -56,11 +56,6 @@ hr{
     width: 30%;
     margin: 2em auto 3em auto;
 }
-.container {
-    width: 100%;    
-    padding-top: 6em;
-    text-align: center;
-}
 header h1 {
     font-family: "Marck Script";
     padding-top: 2em;
@@ -78,6 +73,11 @@ header a:hover{
     background-color: #FE4B74;
     color: white;
 }
+.container {
+    width: 100%;    
+    padding-top: 6em;
+    text-align: center;
+}
 header, section {
     height: 100%;    
     background-color: #373B44;
@@ -85,6 +85,16 @@ header, section {
 }
 section:nth-of-type(odd) {
     background-color: #FE4B74;
+}
+h2 {
+    font-family: "Marck Script";
+    font-size: 3em;
+}
+#about p {
+    margin: 4em auto;
+    width: 80%;
+    font-size: 1.5em;
+    line-height: 2em;
 }
 footer {
 

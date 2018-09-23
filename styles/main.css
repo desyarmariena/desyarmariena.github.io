@@ -37,6 +37,7 @@ ul {
 }
 nav ul li {
     text-align: center;
+    font-weight: 600;
     padding: 1em 1em;
     height: 100%;
 }
@@ -100,14 +101,17 @@ h2 {
 #skills ul{
     display: grid;
     width: 80%;
-    margin: 4em auto;
+    margin: 2em auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2vw;
 }
-.fab {
+#skills .fab {
     font-size: 10vw;
 }
 #skills ul li {
-    padding: 2vw;
+    padding: 1vw;
+    border: 1px solid white;
+    border-radius: 20px;
 }
 #skills ul li:hover {
     color: #FE4B74;
@@ -115,7 +119,28 @@ h2 {
 span {
     display: block;
     font-size: 2vw;
+    padding: 0.5vw;
 }
-footer {
-
+#projects ul{
+    display: grid;
+    width: 80%;
+    margin: 4em auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2vw;
+}
+#projects ul li img{
+    width: 100%;
+    border-radius: 20px;
+    opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+#projects ul li img:hover{    
+    opacity: 1;
+}
+footer p{
+    height: 40px;
+    line-height: 40px;
 }
